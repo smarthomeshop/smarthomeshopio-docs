@@ -1,6 +1,7 @@
-<template><div><h1 id="waterp1meterkit-overview" tabindex="-1"><a class="header-anchor" href="#waterp1meterkit-overview"><span>WaterP1MeterKit Overview</span></a></h1>
+<template><div><h1 id="waterp1meterkit-v2-overview" tabindex="-1"><a class="header-anchor" href="#waterp1meterkit-v2-overview"><span>WaterP1MeterKit V2 Overview</span></a></h1>
 <img src="@source/.vuepress/public/images/waterp1meterkit/waterp1meterkit-product-shop.png" alt="WaterP1MeterKit Image" style="width: 50%;">
 <p>Welcome to the WaterP1MeterKit guide. This section provides step-by-step instructions and additional information for setting up and using your WaterP1MeterKit.</p>
+<p>You can also use this guide for the WaterP1MeterKit V1 version. The only difference between WaterP1MeterKit V1 and V2 is that V2 has PoE support built-in by default. In V1, PoE was enabled using an external splitter that separated the PoE power into an Ethernet cable and a USB-C cable. For V2, you can simply plug a PoE-enabled Ethernet cable into the device. Please note that you need to install the Ethernet firmware to use the Ethernet port!</p>
 <h2 id="sections" tabindex="-1"><a class="header-anchor" href="#sections"><span>Sections</span></a></h2>
 <ul>
 <li><RouteLink to="/waterp1meterkit-v2/installation.html">Installation</RouteLink></li>
