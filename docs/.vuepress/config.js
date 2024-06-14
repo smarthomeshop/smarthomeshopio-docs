@@ -89,6 +89,19 @@ export default defineUserConfig({
           '/waterp1meterkit-v2/technical-specifications.md',
           '/waterp1meterkit-v2/warranty-and-support.md'
         ]
+      },
+      {
+        text: 'WaterFlowKit',
+        link: '/waterflowkit/',
+        collapsible: true,
+        children: [
+          '/waterflowkit/README.md',
+          '/waterflowkit/installation.md',
+          '/waterflowkit/usage.md',
+          '/waterflowkit/troubleshooting.md',
+          '/waterflowkit/technical-specifications.md',
+          '/waterflowkit/warranty-and-support.md'
+        ]
       }
     ],
   }),

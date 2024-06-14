@@ -11,6 +11,10 @@ actions:
     link: /waterp1meterkit-v2/README.md
     type: secondary
 
+  - text: WaterFlowKit
+    link: /waterflowkit/README.md
+    type: secondary
+
 features:
   - title: Comprehensive Guides
     details: Detailed setup and usage instructions for all SmartHomeShop products.
@@ -34,5 +38,6 @@ Welcome to the SmartHomeShop Documentation site. This site provides comprehensiv
 
 - [WaterMeterKit V2](watermeterkit-v2/README.md)
 - [WaterP1MeterKit V2](waterp1meterkit-v2/README.md)
+- [WaterFlowKit](waterflowkit/README.md)
 
 Explore the documentation to get started with your SmartHomeShop products and make the most of your smart home experience.
