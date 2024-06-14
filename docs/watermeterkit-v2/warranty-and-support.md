@@ -10,4 +10,4 @@ Please note, we do not provide support or answer installation questions by email
 
 ## Additional Resources
 
-For detailed instructions specific to your Home Assistant setup, refer to the official Home Assistant documentation.
+- Join our [Discord chat server](https://smarthomeshop.io/discord) for personalized assistance and community support.

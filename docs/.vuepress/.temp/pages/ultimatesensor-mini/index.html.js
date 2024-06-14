@@ -1,0 +1,3 @@
+import comp from "/Users/dwain/Sites/smarthomeshopio-docs/docs/.vuepress/.temp/pages/ultimatesensor-mini/index.html.vue"
+const data = JSON.parse("{\"path\":\"/ultimatesensor-mini/\",\"title\":\"UltimateSensor Mini Overview\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Sections\",\"slug\":\"sections\",\"link\":\"#sections\",\"children\":[]},{\"level\":2,\"title\":\"Frequently Asked Questions (FAQ)\",\"slug\":\"frequently-asked-questions-faq\",\"link\":\"#frequently-asked-questions-faq\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"ultimatesensor-mini/README.md\"}")
+export { comp, data }

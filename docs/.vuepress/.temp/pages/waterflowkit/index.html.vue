@@ -65,6 +65,13 @@
 <li>For detailed specifications, refer to the <RouteLink to="/waterflowkit/technical-specifications.html">Technical Specifications</RouteLink> page.</li>
 </ul>
 </li>
+<li>
+<p><strong>What is the difference between the WaterFlowKit and the WaterMeterKit?</strong></p>
+<ul>
+<li>The WaterFlowKit is intended to be installed on an individual pipe within your home. This allows you to monitor specific points of water usage, such as individual faucets or lines, and you can install multiple WaterFlowKits throughout your home to monitor different locations. In contrast, the
+WaterMeterKit is designed to read the water meter provided by your water utility or a standalone water meter with a 1-liter metal plate indicator.</li>
+</ul>
+</li>
 </ol>
 <p>For further assistance, please join our <a href="https://smarthomeshop.io/discord" target="_blank" rel="noopener noreferrer">Discord server</a> for personalized support and community interaction.</p>
 </div></template>

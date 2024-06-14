@@ -102,7 +102,23 @@ export default defineUserConfig({
           '/waterflowkit/technical-specifications.md',
           '/waterflowkit/warranty-and-support.md'
         ]
-      }
+      },
+      {
+        text: 'UltimateSensor Mini',
+        link: '/ultimatesensor-mini/',
+        collapsible: true,
+        children: [
+          '/ultimatesensor-mini/README.md',
+          '/ultimatesensor-mini/installation.md',
+          '/ultimatesensor-mini/usage.md',
+          '/ultimatesensor-mini/calibration.md',
+          '/ultimatesensor-mini/voice-assistant.md',
+          '/ultimatesensor-mini/troubleshooting.md',
+          '/ultimatesensor-mini/technical-specifications.md',
+          '/ultimatesensor-mini/warranty-and-support.md'
+        ]
+      },
+      
     ],
   }),
 

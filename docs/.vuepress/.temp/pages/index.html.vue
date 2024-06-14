@@ -4,6 +4,7 @@
 <li><RouteLink to="/watermeterkit-v2/">WaterMeterKit V2</RouteLink></li>
 <li><RouteLink to="/waterp1meterkit-v2/">WaterP1MeterKit V2</RouteLink></li>
 <li><RouteLink to="/waterflowkit/">WaterFlowKit</RouteLink></li>
+<li><RouteLink to="/ultimatesensor-mini/">UltimateSensor Mini</RouteLink></li>
 </ul>
 <p>Explore the documentation to get started with your SmartHomeShop products and make the most of your smart home experience.</p>
 </div></template>
