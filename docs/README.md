@@ -19,6 +19,10 @@ actions:
     link: /ultimatesensor-mini/README.md
     type: secondary
 
+  - text: P1MeterKit
+    link: /p1meterkit/README.md
+    type: secondary
+
 features:
   - title: Comprehensive Guides
     details: Detailed setup and usage instructions for all SmartHomeShop products.
@@ -44,5 +48,6 @@ Welcome to the SmartHomeShop Documentation site. This site provides comprehensiv
 - [WaterP1MeterKit V2](waterp1meterkit-v2/README.md)
 - [WaterFlowKit](waterflowkit/README.md)
 - [UltimateSensor Mini](ultimatesensor-mini/README.md)
+- [P1MeterKit](p1meterkit/README.md)
 
 Explore the documentation to get started with your SmartHomeShop products and make the most of your smart home experience.

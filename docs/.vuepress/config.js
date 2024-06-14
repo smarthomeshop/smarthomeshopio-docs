@@ -118,6 +118,19 @@ export default defineUserConfig({
           '/ultimatesensor-mini/warranty-and-support.md'
         ]
       },
+      {
+        text: 'P1MeterKit',
+        link: '/p1meterkit/',
+        collapsible: true,
+        children: [
+          '/p1meterkit/README.md',
+          '/p1meterkit/installation.md',
+          '/p1meterkit/usage.md',
+          '/p1meterkit/troubleshooting.md',
+          '/p1meterkit/technical-specifications.md',
+          '/p1meterkit/warranty-and-support.md'
+        ]
+      },
       
     ],
   }),
