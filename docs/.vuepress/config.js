@@ -50,7 +50,7 @@ export default defineUserConfig({
 
     navbar: [
       { text: 'Home', link: '/' },
-      { text: 'Products', link: '/watermeterkit/' },
+      { text: 'Products', link: '/watermeterkit-v2/' },
       {
         text: 'Contact',
         link: 'https://smarthomeshop.io/contact'
@@ -65,29 +65,29 @@ export default defineUserConfig({
 
     sidebar: [
       {
-        text: 'WaterMeterKit',
-        link: '/watermeterkit/',
+        text: 'WaterMeterKit V2',
+        link: '/watermeterkit-v2/',
         collapsible: true,
         children: [
-          '/watermeterkit/README.md',
-          '/watermeterkit/installation.md',
-          '/watermeterkit/usage.md',
-          '/watermeterkit/troubleshooting.md',
-          '/watermeterkit/technical-specifications.md',
-          '/watermeterkit/warranty-and-support.md'
+          '/watermeterkit-v2/README.md',
+          '/watermeterkit-v2/installation.md',
+          '/watermeterkit-v2/usage.md',
+          '/watermeterkit-v2/troubleshooting.md',
+          '/watermeterkit-v2/technical-specifications.md',
+          '/watermeterkit-v2/warranty-and-support.md'
         ]
       },
       {
-        text: 'WaterP1MeterKit',
-        link: '/waterp1meterkit/',
+        text: 'WaterP1MeterKit V2',
+        link: '/waterp1meterkit-v2/',
         collapsible: true,
         children: [
-          '/waterp1meterkit/README.md',
-          '/waterp1meterkit/installation.md',
-          '/waterp1meterkit/usage.md',
-          '/waterp1meterkit/troubleshooting.md',
-          '/waterp1meterkit/technical-specifications.md',
-          '/waterp1meterkit/warranty-and-support.md'
+          '/waterp1meterkit-v2/README.md',
+          '/waterp1meterkit-v2/installation.md',
+          '/waterp1meterkit-v2/usage.md',
+          '/waterp1meterkit-v2/troubleshooting.md',
+          '/waterp1meterkit-v2/technical-specifications.md',
+          '/waterp1meterkit-v2/warranty-and-support.md'
         ]
       }
     ],

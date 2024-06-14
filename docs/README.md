@@ -3,12 +3,12 @@ home: true
 title: Home
 heroImage: ./visuals/smarthomeshop.svg
 actions:
-  - text: WaterMeterKit
-    link: /watermeterkit/README.md
+  - text: WaterMeterKit V2
+    link: /watermeterkit-v2/README.md
     type: secondary
 
-  - text: WaterP1MeterKit
-    link: /waterp1meterkit/README.md
+  - text: WaterP1MeterKit V2
+    link: /waterp1meterkit-v2/README.md
     type: secondary
 
 features:
@@ -32,7 +32,7 @@ Welcome to the SmartHomeShop Documentation site. This site provides comprehensiv
 
 ## Available Products
 
-- [WaterMeterKit](watermeterkit/README.md)
-- [WaterP1MeterKit](waterp1meterkit/README.md)
+- [WaterMeterKit V2](watermeterkit-v2/README.md)
+- [WaterP1MeterKit V2](waterp1meterkit-v2/README.md)
 
 Explore the documentation to get started with your SmartHomeShop products and make the most of your smart home experience.
