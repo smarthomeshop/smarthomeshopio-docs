@@ -1,7 +1,7 @@
 body {
 }
 .vp-hero-image {
-    max-width: 30%;
+    max-width: 30% !important
 }
 .dark .medium-zoom-image {
     background: gray;
