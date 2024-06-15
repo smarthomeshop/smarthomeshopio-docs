@@ -1,0 +1,12 @@
+body {
+}
+.vp-hero-image {
+    max-width: 30%;
+}
+.dark .medium-zoom-image {
+    background: gray;
+}
+.vp-site-name {
+    font-size: 1.0em;
+    font-weight: normal;
+}

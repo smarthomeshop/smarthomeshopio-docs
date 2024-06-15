@@ -3,6 +3,16 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
+  head: [
+    ['link', { rel: 'icon', href: '/favicon-32x32.png' }],
+    ['link', { rel: 'mask-icon', href: '/favicon-32x32.png', color: '#7825FB' }],
+    ['meta', { property: 'og:title', content: 'SmartHomeShop Documentation' }],
+    ['meta', { property: 'og:description', content: 'Comprehensive guides for all SmartHomeShop products' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'SmartHomeShop Documentation' }],
+    ['meta', { name: 'twitter:description', content: 'Comprehensive guides for all SmartHomeShop products' }],
+    ['link', { rel: 'stylesheet', href: '/styles/index.css' }]
+  ],
   lang: 'en-US',
   title: 'SmartHomeShop Documentation',
   description: 'Comprehensive guides for all SmartHomeShop products',
