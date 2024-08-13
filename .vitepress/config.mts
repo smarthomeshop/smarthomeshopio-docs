@@ -27,6 +27,19 @@ export default defineConfig({
             ]
           },
           {
+            text: 'UltimateSensor',
+            collapsed: true,
+            items: [
+              { text: 'Overview', link: '/en/ultimatesensor' },
+              { text: 'Installation', link: '/en/ultimatesensor/installation' },
+              { text: 'Usage', link: '/en/ultimatesensor/usage' },
+              { text: 'Troubleshooting', link: '/en/ultimatesensor/troubleshooting' },
+              { text: 'Technical Specifications', link: '/en/ultimatesensor/technical-specifications' },
+              { text: 'Calibration', link: '/en/ultimatesensor/calibration' },
+              { text: 'Warranty and Support', link: '/en/ultimatesensor/warranty-and-support' },
+            ]
+          },
+          {
             text: 'UltimateSensor Mini',
             collapsed: true,
             items: [
@@ -96,6 +109,19 @@ export default defineConfig({
               { text: 'Probleemoplossing', link: '/nl/p1meterkit/troubleshooting' },
               { text: 'Technische Specificaties', link: '/nl/p1meterkit/technical-specifications' },
               { text: 'Garantie en Ondersteuning', link: '/nl/p1meterkit/warranty-and-support' },
+            ]
+          },
+          {
+            text: 'UltimateSensor',
+            collapsed: true,
+            items: [
+              { text: 'Overzicht', link: '/nl/ultimatesensor' },
+              { text: 'Installatie', link: '/nl/ultimatesensor/installation' },
+              { text: 'Gebruik', link: '/nl/ultimatesensor/usage' },
+              { text: 'Probleemoplossing', link: '/nl/ultimatesensor/troubleshooting' },
+              { text: 'Technische Specificaties', link: '/nl/ultimatesensor/technical-specifications' },
+              { text: 'Calibratie', link: '/nl/ultimatesensor/calibration' },
+              { text: 'Garantie en Ondersteuning', link: '/nl/ultimatesensor/warranty-and-support' },
             ]
           },
           {

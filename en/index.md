@@ -19,6 +19,10 @@ hero:
     link: /en/waterflowkit
     type: secondary
 
+  - text: UltimateSensor
+    link: /en/ultimatesensor
+    type: secondary
+
   - text: UltimateSensor Mini
     link: /en/ultimatesensor-mini
     type: secondary
