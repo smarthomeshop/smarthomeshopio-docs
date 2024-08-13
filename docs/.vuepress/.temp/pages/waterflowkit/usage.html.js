@@ -1,3 +1,0 @@
-import comp from "/Users/dwain/Sites/smarthomeshopio-docs/docs/.vuepress/.temp/pages/waterflowkit/usage.html.vue"
-const data = JSON.parse("{\"path\":\"/waterflowkit/usage.html\",\"title\":\"Usage Guide\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Real-Time Monitoring\",\"slug\":\"real-time-monitoring\",\"link\":\"#real-time-monitoring\",\"children\":[]},{\"level\":2,\"title\":\"Historical Data\",\"slug\":\"historical-data\",\"link\":\"#historical-data\",\"children\":[]}],\"git\":{\"updatedTime\":1718394832000,\"contributors\":[{\"name\":\"Dwain Scheeren\",\"email\":\"info@dwain.nl\",\"commits\":1}]},\"filePathRelative\":\"waterflowkit/usage.md\"}")
-export { comp, data }

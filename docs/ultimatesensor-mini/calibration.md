@@ -1,3 +1,0 @@
-# Calibration Guide
-
-Coming Soon!
