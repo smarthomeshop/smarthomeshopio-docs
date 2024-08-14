@@ -14,6 +14,7 @@ Welcome to the UltimateSensor Mini guide. This section provides step-by-step ins
 - [Voice Assistant](voice-assistant)
 - [Calibration](calibration)
 - [Warranty and Support](warranty-and-support)
+- [Firmware](firmware)
 
 ## Frequently Asked Questions (FAQ)
 

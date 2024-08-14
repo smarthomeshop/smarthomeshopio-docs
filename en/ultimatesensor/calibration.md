@@ -1,4 +1,4 @@
-# Calibration Guide for UltimateSensor Mini
+# Calibration Guide for UltimateSensor
 
 Calibrating your UltimateSensor ensures accurate measurements of CO2 levels and other environmental parameters. Follow these steps to properly calibrate your sensor.
 

@@ -13,6 +13,7 @@ U kunt deze handleiding ook gebruiken voor de WaterP1MeterKit V1-versie. Het eni
 - [Probleemoplossing](troubleshooting)
 - [Technische specificaties](technical-specifications)
 - [Garantie en ondersteuning](warranty-and-support)
+- [Firmware](firmware)
 
 ## Veelgestelde vragen (FAQ)
 

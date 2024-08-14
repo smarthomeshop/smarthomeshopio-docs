@@ -1,97 +1,97 @@
-# Calibration Guide for UltimateSensor Mini
+# Kalibratiehandleiding voor UltimateSensor Mini
 
-Calibrating your UltimateSensor Mini ensures accurate measurements of CO2 levels and other environmental parameters. Follow these steps to properly calibrate your sensor.
+Het kalibreren van uw UltimateSensor Mini zorgt voor nauwkeurige metingen van CO2-niveaus en andere omgevingsparameters. Volg deze stappen om uw sensor correct te kalibreren.
 
-## CO2 Sensor Calibration
+## CO2 Sensor Kalibratie
 
-The UltimateSensor Mini uses the SCD41.
+De UltimateSensor Mini maakt gebruik van de SCD41.
 
-**SCD41 Specifications**
-- **CO2 Measurement Range**: 400 to 5,000 ppm
-- **Temperature Measurement Range**: -10 to 60 °C (14 to 140 °F)
-- **Humidity Measurement Range**: 0 to 100 %RH
+**SCD41 Specificaties**
+- **CO2 Meetbereik**: 400 tot 5.000 ppm
+- **Temperatuur Meetbereik**: -10 tot 60 °C
+- **Vochtigheids Meetbereik**: 0 tot 100 %RH
 
-**CO2 Accuracy Specifications:**
-- **400-1,000 ppm**: ±(50 ppm + 2.5% of reading)
-- **1,001-2,000 ppm**: ±(50 ppm + 3% of reading)
-- **2,001-5,000 ppm**: ±(40 ppm + 5% of reading)
+**CO2 Nauwkeurigheid Specificaties:**
+- **400-1.000 ppm**: ±(50 ppm + 2,5% van de meting)
+- **1.001-2.000 ppm**: ±(50 ppm + 3% van de meting)
+- **2.001-5.000 ppm**: ±(40 ppm + 5% van de meting)
 
-1. **Automatic Baseline Calibration (ABC)**
-   - The sensor uses an Automatic Baseline Calibration (ABC) algorithm to self-calibrate over time. Ensure the sensor is exposed to fresh air (400 ppm CO2) regularly for the ABC to function correctly.
+1. **Automatische Baseline Kalibratie (ABC)**
+   - De sensor gebruikt een Automatisch Baseline Kalibratie (ABC) algoritme om zichzelf in de loop van de tijd te kalibreren. Zorg ervoor dat de sensor regelmatig wordt blootgesteld aan frisse lucht (400 ppm CO2) zodat de ABC correct functioneert.
 
-2. **Manual Calibration**
-   - If you need to calibrate the sensor manually, follow these steps:
+2. **Handmatige Kalibratie**
+   - Als u de sensor handmatig moet kalibreren, volg dan deze stappen:
 
-     ### Step-by-Step Manual Calibration via Home Assistant
+     ### Stapsgewijze Handmatige Kalibratie via Home Assistant
 
-     1. **Prepare the Environment & Ultimate Sensor Mini**
-        - Place the Ultimate Sensor Mini outdoors on a clear day within range of your WiFi network (note that the sensor is not waterproof). Power on the UltimateSensor Mini and wait at least 5 minutes before continuing to the next step.
+     1. **Bereid de Omgeving & UltimateSensor Mini voor**
+        - Plaats de UltimateSensor Mini buiten op een heldere dag binnen bereik van uw WiFi-netwerk (let op dat de sensor niet waterdicht is). Zet de UltimateSensor Mini aan en wacht minstens 5 minuten voordat u doorgaat naar de volgende stap.
 
-     2. **Access Home Assistant**
-        - Open Home Assistant in your web browser or the mobile app.
+     2. **Toegang tot Home Assistant**
+        - Open Home Assistant in uw webbrowser of de mobiele app.
 
-     3. **Navigate to ESPHome Integration**
-        - Go to **Settings**.
-        - Select **Devices & Services**.
-        - Find and open the **ESPHome** integration.
+     3. **Navigeer naar ESPHome Integratie**
+        - Ga naar **Instellingen**.
+        - Selecteer **Apparaten & Diensten**.
+        - Zoek en open de **ESPHome** integratie.
 
-     4. **Select UltimateSensor Mini**
-        - Locate the UltimateSensor Mini device from the list of ESPHome devices.
-        - Click on the device to open its settings.
+     4. **Selecteer UltimateSensor Mini**
+        - Zoek het UltimateSensor Mini-apparaat in de lijst met ESPHome-apparaten.
+        - Klik op het apparaat om de instellingen te openen.
 
-     5. **Calibrate the CO2 Sensor**
-        - Press the Calibrate CO2 button in the **Controls** section. The sensor will start to calibrate. Let the calibration process run for at least 1 minute. Note: The sensor is calibrated to 419 ppm. As of April 2022, the average fresh air CO2 concentration is 419 ppm.
+     5. **Kalibreer de CO2 Sensor**
+        - Druk op de Kalibreer CO2-knop in de **Bedienings** sectie. De sensor begint met kalibreren. Laat het kalibratieproces minstens 1 minuut lopen. Opmerking: De sensor is gekalibreerd op 419 ppm. Vanaf april 2022 is de gemiddelde CO2-concentratie in frisse lucht 419 ppm.
 
-     6. **Verify Calibration**
-        - After calibrating, verify that the CO2 readings are accurate.
-        - You may need to repeat the process or adjust the settings if the readings are not correct.
+     6. **Controleer de Kalibratie**
+        - Controleer na het kalibreren of de CO2-metingen nauwkeurig zijn.
+        - Mogelijk moet u het proces herhalen of de instellingen aanpassen als de metingen niet correct zijn.
 
 
-#### CO2 Levels and Health Implications
+#### CO2-Niveaus en Gezondheidsimplicaties
 
-The levels of CO2 in the air and potential health effects are:
-- **350-450 ppm**: Healthy outdoor air level.
-- **600 ppm**: Healthy indoor air level.
-- **800 ppm**: Acceptable level for indoor air quality.
-- **1,000 ppm**: Ventilation recommended.
-- **1,200 ppm**: Ventilation necessary.
-- **2,000 ppm**: Negative health effects, such as drowsiness and poor air quality.
-- **5,000 ppm**: Dangerous with long-term exposure.
+De CO2-niveaus in de lucht en mogelijke gezondheidseffecten zijn:
+- **350-450 ppm**: Gezond buitenluchtniveau.
+- **600 ppm**: Gezond binnenluchtniveau.
+- **800 ppm**: Acceptabel niveau voor binnenluchtkwaliteit.
+- **1.000 ppm**: Ventilatie aanbevolen.
+- **1.200 ppm**: Ventilatie noodzakelijk.
+- **2.000 ppm**: Negatieve gezondheidseffecten, zoals slaperigheid en slechte luchtkwaliteit.
+- **5.000 ppm**: Gevaarlijk bij langdurige blootstelling.
 
-<!-- ## Temperature and Humidity Sensor Calibration
+## Kalibratie van Temperatuur- en Vochtigheidssensor
 
-1. **Temperature Calibration**
-   - Ensure the sensor is placed in a stable environment with a known temperature.
-   - Adjust the temperature offset in the sensor’s settings to match the known temperature.
+1. **Temperatuurkalibratie**
+   - Zorg ervoor dat de sensor zich in een stabiele omgeving bevindt met een bekende temperatuur.
+   - Pas de temperatuuroffset aan in de ESPHome YAML om overeen te komen met de bekende temperatuur.
 
-2. **Humidity Calibration**
-   - Place the sensor in an environment with a known humidity level.
-   - Adjust the humidity offset in the sensor’s settings to match the known humidity.
+2. **Vochtigheid Kalibratie**
+   - Plaats de sensor in een omgeving met een bekend vochtigheidsniveau.
+   - Pas de vochtigheidsoffset aan in de ESPHome YAML om overeen te komen met de bekende vochtigheid.
 
-## Light Intensity Sensor Calibration
+## Kalibratie van Lichtintensiteitssensor
 
-1. **Calibration Steps**
-   - Use a lux meter to measure the light intensity in the sensor’s environment.
-   - Adjust the light sensor’s readings in the settings to match the lux meter reading.
+1. **Kalibratiestappen**
+   - Gebruik een luxmeter om de lichtintensiteit in de omgeving van de sensor te meten.
+   - Pas de lichtsensorlezingen aan in de ESPHome YAML om overeen te komen met de luxmeter meting.
 
-## VOC and Particulate Matter Sensor Calibration
+## Kalibratie van VOC- en Fijnstofsensor
 
-1. **VOC Calibration**
-   - Place the sensor in an environment with known VOC levels.
-   - Use the sensor's settings to adjust the VOC readings accordingly.
+1. **VOC Kalibratie**
+   - Plaats de sensor in een omgeving met bekende VOC-niveaus.
+   - Pas de ESPHome YAML van de sensor aan om de VOC-metingen dienovereenkomstig aan te passen.
 
-2. **Particulate Matter Calibration**
-   - Use a reliable particulate matter reference device to measure the PM levels.
-   - Adjust the sensor’s PM readings in the settings to match the reference device. -->
+2. **Fijnstof Kalibratie**
+   - Gebruik een betrouwbaar fijnstof referentieapparaat om de PM-niveaus te meten.
+   - Pas de PM-lezingen van de sensor aan in de ESPHome YAML om overeen te komen met het referentieapparaat.
 
-## Additional Notes
+## Aanvullende Opmerkingen
 
-- **Calibration Frequency**
-  - Regular calibration ensures ongoing accuracy. Perform manual calibration every 6-12 months or after relocating the sensor.
+- **Kalibratiefrequentie**
+  - Regelmatige kalibratie zorgt voor voortdurende nauwkeurigheid. Voer handmatige kalibratie uit elke 6-12 maanden of na het verplaatsen van de sensor.
 
-- **Environmental Factors**
-  - Avoid placing the sensor in direct sunlight or areas with extreme temperatures and humidity for prolonged periods.
+- **Omgevingsfactoren**
+  - Vermijd het plaatsen van de sensor in direct zonlicht of in gebieden met extreme temperaturen en vochtigheid gedurende lange periodes.
 
-For detailed instructions, refer to the ESPHome or Home Assistant documentation on sensor calibration. If you encounter issues, join our [Discord community](https://smarthomeshop.io/discord) for support.
+Voor gedetailleerde instructies, raadpleeg de ESPHome of Home Assistant documentatie over sensorkalibratie. Als u problemen ondervindt, sluit u dan aan bij onze [Discord community](https://smarthomeshop.io/discord) voor ondersteuning.
 
-By following these calibration steps, you can ensure that your UltimateSensor Mini provides accurate and reliable environmental data for your smart home system.
+Door deze kalibratiestappen te volgen, kunt u ervoor zorgen dat uw UltimateSensor Mini nauwkeurige en betrouwbare omgevingsgegevens levert voor uw slimme thuissysteem.

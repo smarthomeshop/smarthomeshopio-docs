@@ -123,8 +123,9 @@ export default defineConfig({
               { text: 'Gebruik', link: '/nl/ultimatesensor/usage' },
               { text: 'Probleemoplossing', link: '/nl/ultimatesensor/troubleshooting' },
               { text: 'Technische Specificaties', link: '/nl/ultimatesensor/technical-specifications' },
-              { text: 'Calibratie', link: '/nl/ultimatesensor/calibration' },
+              { text: 'Kalibratie', link: '/nl/ultimatesensor/calibration' },
               { text: 'Garantie en Ondersteuning', link: '/nl/ultimatesensor/warranty-and-support' },
+              { text: 'Firmware', link: '/nl/ultimatesensor/firmware' },
             ]
           },
           {
@@ -137,8 +138,9 @@ export default defineConfig({
               { text: 'Probleemoplossing', link: '/nl/ultimatesensor-mini/troubleshooting' },
               { text: 'Technische Specificaties', link: '/nl/ultimatesensor-mini/technical-specifications' },
               { text: 'Voice Assistant', link: '/nl/ultimatesensor-mini/voice-assistant' },
-              { text: 'Calibratie', link: '/nl/ultimatesensor-mini/calibration' },
+              { text: 'Kalibratie', link: '/nl/ultimatesensor-mini/calibration' },
               { text: 'Garantie en Ondersteuning', link: '/nl/ultimatesensor-mini/warranty-and-support' },
+              { text: 'Firmware', link: '/nl/ultimatesensor-mini/firmware' },
             ]
           },
           {
@@ -175,6 +177,7 @@ export default defineConfig({
               { text: 'Probleemoplossing', link: '/nl/waterp1meterkit-v2/troubleshooting' },
               { text: 'Technische Specificaties', link: '/nl/waterp1meterkit-v2/technical-specifications' },
               { text: 'Garantie en Ondersteuning', link: '/nl/waterp1meterkit-v2/warranty-and-support' },
+              { text: 'Firmware', link: '/nl/waterp1meterkit-v2/firmware' },
             ]
           }
         ],

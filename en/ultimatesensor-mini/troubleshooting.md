@@ -53,6 +53,11 @@ If you encounter any issues with the UltimateSensor Mini, try the following step
    - Check if the microphone and speaker are properly connected and functioning.
    - Verify that the voice assistant settings in Home Assistant are correctly configured.
 
+
+## Speaker issues Crackling or stuttering sound
+
+If you experience crackling or stuttering sound from the speaker, ensure that the device maintains a strong WiFi connection. For optimal performance, consider disabling the wake word detection while streaming music, playing MP3 files, or using text-to-speech functionalities.
+
 ## LED Indicator Issues
 
 1. **Red Status LED Flashing Slowly**
@@ -71,10 +76,10 @@ If you get the error `Could not find file '/config/esphome/default_16MB.csv'. Pl
    - If you are unable to connect the UltimateSensor Mini to your WiFi network, access the fallback web interface by navigating to [http://192.168.4.1/](http://192.168.4.1/) in your browser while connected to the UltimateSensor Mini hotspot.
 
 2. **Firmware Updates**
-   - Ensure the UltimateSensor Mini is running the latest firmware. Refer to our [firmware page](https://smarthomeshop.io/firmware) for instructions on how to update the firmware.
+   - Ensure the UltimateSensor Mini is running the latest firmware. Refer to our [firmware page](firmware) for instructions on how to update the firmware.
 
 3. **Factory Reset**
-   - If all else fails, perform a factory reset on the UltimateSensor Mini. This can be done by reflashing the unit via USB-C. Refer to our [firmware page](https://smarthomeshop.io/firmware) for instructions on how to reflash the latest firmware, which will reset the device back to its original state and remove the saved SSID information.
+   - If all else fails, perform a factory reset on the UltimateSensor Mini. This can be done by reflashing the unit via USB-C. Refer to our [firmware page](firmware) for instructions on how to reflash the latest firmware, which will reset the device back to its original state and remove the saved SSID information.
 
 ## Additional Resources
 

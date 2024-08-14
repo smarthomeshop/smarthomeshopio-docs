@@ -13,6 +13,7 @@ Welcome to the UltimateSensor guide. This section provides step-by-step instruct
 - [Technical Specifications](technical-specifications)
 - [Calibration](calibration)
 - [Warranty and Support](warranty-and-support)
+- [Firmware](firmware)
 
 ## Frequently Asked Questions (FAQ)
 
@@ -43,5 +44,8 @@ Welcome to the UltimateSensor guide. This section provides step-by-step instruct
 9. **What is the power supply for the UltimateSensor?**
    - The UltimateSensor is primarily powered via a USB-C connection. It can also be powered via PoE (Power over Ethernet) but this option is only available when the Ethernet firmware is installed on the device. It comes with a European USB Power Adapter; however, if you are located outside Europe, while you will receive the adapter, you may also use any other compatible power adapter providing at least 1A.
 
-
-For further assistance, please join our [Discord server](https://smarthomeshop.io/discord) for personalized support and community interaction.
+10. **How to use WiFi or Ethernet port (PoE)?**
+   - The UltimateSensor offers flexible connectivity options through WiFi and Ethernet (Power over Ethernet or PoE). Both methods ensure reliable performance, with Ethernet PoE being particularly useful in environments where WiFi connectivity might be inconsistent. For more detailed instructions on switching between WiFi and Ethernet or setting up PoE, refer to the [firmware page](firmware).
+   Here’s how to use each:
+      - WiFi: To connect the UltimateSensor to your WiFi network, ensure your device is powered on and within range of your WiFi router. Follow the on-screen instructions to select and connect to your network. This setup is ideal for quick and wireless integration.
+      - Ethernet (PoE): For a more stable and continuous power supply, you can connect the UltimateSensor via an Ethernet cable that supports PoE. This not only provides a stable internet connection but also powers the device, eliminating the need for a separate power adapter. Simply connect the Ethernet cable to the PoE-enabled port on the UltimateSensor and configure the network settings accordingly.

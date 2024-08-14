@@ -14,6 +14,7 @@ Welkom bij de UltimateSensor Mini handleiding. In deze sectie vindt u stapsgewij
 - [Stemassistent](voice-assistant)
 - [Kalibratie](calibration)
 - [Garantie en ondersteuning](warranty-and-support)
+- [Firmware](firmware)
 
 ## Veelgestelde vragen (FAQ)
 

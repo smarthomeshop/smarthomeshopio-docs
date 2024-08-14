@@ -13,6 +13,7 @@ You can also use this guide for the WaterP1MeterKit V1 version. The only differe
 - [Troubleshooting](troubleshooting)
 - [Technical Specifications](technical-specifications)
 - [Warranty and Support](warranty-and-support)
+- [Firmware](firmware)
 
 ## Frequently Asked Questions (FAQ)
 
