@@ -18,7 +18,7 @@ Optional (if selected at checkout page):
 
 Connect the UltimateSensor to a power source using the provided USB-C cable and power adapter. Note that the device comes with a European USB Power Adapter. If you live outside Europe, you will still receive the adapter in the box, but you can also use any other power adapter you have at home as long as it provides at least 1A.
 
-**Please note that powering the device by PoE or using an Ethernet connection instead of WiFi only works if the device has the Ethernet firmware installed. All UltimateSensor versions support PoE if the Ethernet firmware is installed. To switch between the firmware versions, please visit the [WiFi/Ethernet page](wifi-ethernet).**
+**Please note that powering the device by PoE or using an Ethernet connection instead of WiFi only works if the device has the Ethernet firmware installed. All UltimateSensor versions support PoE if the Ethernet firmware is installed. To switch between the firmware versions, please visit the [Firmware page](firmware).**
 
 ![Power by Cable](/images/ultimatesensor/power-by-cable.png)
 
