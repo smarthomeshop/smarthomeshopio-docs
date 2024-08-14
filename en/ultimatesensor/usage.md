@@ -30,3 +30,14 @@ To ensure accurate readings and prevent damage:
 ## Inaccurate measurement of sensors
 
 If sensors display inaccurate readings, they may require recalibration or adjustments to their offsets. Detailed instructions can be found on the [calibration page](calibration). Note: We are not responsible for inaccuracies in readings from third-party sensors or for changes in sensor behavior due to software updates by third parties.
+
+## Switching between WiFi and Ethernet (PoE) Connection
+
+The UltimateSensor supports both WiFi and Ethernet (PoE) connections, allowing for flexible integration into your smart home setup. Depending on your network requirements and setup, you may choose to switch between these connection types.
+
+To change the connection type of your UltimateSensor, you will need to update or modify the device’s firmware:
+
+-	WiFi Connection: Ensure your device is within range of your WiFi router. If the UltimateSensor fails to connect or you need to change the WiFi network settings, you may need to reset the WiFi configuration or reconnect through the fallback hotspot mode.
+-	Ethernet (PoE) Connection: This option requires a compatible PoE switch or injector. Simply connect the UltimateSensor using an Ethernet cable to your PoE-enabled network equipment. This setup not only provides a stable network connection but also powers the device through the same cable. You can also use a normal Ethernet cable (without PoE) and use the USB-C for powering the device.
+
+For step-by-step instructions on how to switch firmware to enable these connection types, please visit the [firmware page](firmware). This page provides detailed guidance on configuring and updating the UltimateSensor to suit your preferred connection method.

@@ -37,6 +37,7 @@ export default defineConfig({
               { text: 'Technical Specifications', link: '/en/ultimatesensor/technical-specifications' },
               { text: 'Calibration', link: '/en/ultimatesensor/calibration' },
               { text: 'Warranty and Support', link: '/en/ultimatesensor/warranty-and-support' },
+              { text: 'Firmware', link: '/en/ultimatesensor/firmware' },
             ]
           },
           {
@@ -51,6 +52,7 @@ export default defineConfig({
               { text: 'Voice Assistant', link: '/en/ultimatesensor-mini/voice-assistant' },
               { text: 'Calibration', link: '/en/ultimatesensor-mini/calibration' },
               { text: 'Warranty and Support', link: '/en/ultimatesensor-mini/warranty-and-support' },
+              { text: 'Firmware', link: '/en/ultimatesensor-mini/firmware' },
             ]
           },
           {
@@ -87,6 +89,7 @@ export default defineConfig({
               { text: 'Troubleshooting', link: '/en/waterp1meterkit-v2/troubleshooting' },
               { text: 'Technical Specifications', link: '/en/waterp1meterkit-v2/technical-specifications' },
               { text: 'Warranty and Support', link: '/en/waterp1meterkit-v2/warranty-and-support' },
+              { text: 'Firmware', link: '/en/waterp1meterkit-v2/firmware' },
             ]
           },
         ],

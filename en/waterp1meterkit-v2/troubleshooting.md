@@ -22,6 +22,22 @@ If you encounter any issues with the WaterP1MeterKit, try the following steps:
 5. **Update Home Assistant**
    - Ensure you are running the latest version of Home Assistant. Go to **Settings > System > Updates** to check for and install any available updates.
 
+## Switching between WiFi and Ethernet (PoE) Connection
+
+The WaterP1MeterKit is designed to support both WiFi and Ethernet (PoE) connections, providing versatility depending on your installation preferences. To successfully switch between these connection types, specific firmware adjustments are necessary:
+
+1. **Identify Installed Firmware**: 
+   - Check the LED status on the Ethernet port of the WaterP1MeterKit V2:
+     - A **yellow or green LED** indicates that Ethernet firmware is currently active.
+     - No LED suggests the device is running on WiFi firmware.
+
+2. **Reflashing Firmware**:
+   - If you need to switch from WiFi to Ethernet or vice versa, you must reflash the device with the appropriate firmware.
+   - Detailed step-by-step instructions for reflashing are available on our [firmware page](firmware). This page will guide you through downloading the correct `.bin` file and using a flashing tool to update your WaterP1MeterKit V2.
+
+For users experiencing difficulties with WiFi connections see the section below.
+
+
 ## WiFi Connectivity Issues
 
 1. **Check WiFi Signal Strength**
@@ -39,7 +55,7 @@ If you encounter any issues with the WaterP1MeterKit, try the following steps:
    - Verify that your WiFi network is not using a hidden SSID. If it is, make sure to manually enter the SSID and password during the setup process.
 
 4. **Verify WiFi Firmware**
-   - Ensure that the WiFi firmware is installed on the WaterP1MeterKit. If there is no Ethernet cable connected and the green LED on the Ethernet port is on, then the Ethernet firmware is installed. If the LED is off, the WiFi firmware is installed. Refer to our [firmware page](https://smarthomeshop.io/firmware) for instructions on how to update or switch the firmware.
+   - Ensure that the WiFi firmware is installed on the WaterP1MeterKit. If there is no Ethernet cable connected and the green LED on the Ethernet port is on, then the Ethernet firmware is installed. If the LED is off, the WiFi firmware is installed. Refer to our [firmware page](firmware) for instructions on how to update or switch the firmware.
 
 ## Ethernet / PoE Connectivity Issues
 
@@ -52,7 +68,7 @@ If you encounter any issues with the WaterP1MeterKit, try the following steps:
    - If possible, test the Ethernet cable and PoE port with another device to confirm they are working correctly.
 
 3. **Verify Ethernet Firmware**
-   - Ensure that the Ethernet firmware is installed on the WaterP1MeterKit. If there is no Ethernet cable connected and the green LED on the Ethernet port is on, then the Ethernet firmware is installed. If the LED is off, the WiFi firmware is installed. Refer to our [firmware page](https://smarthomeshop.io/firmware) for instructions on how to update or switch the firmware.
+   - Ensure that the Ethernet firmware is installed on the WaterP1MeterKit. If there is no Ethernet cable connected and the green LED on the Ethernet port is on, then the Ethernet firmware is installed. If the LED is off, the WiFi firmware is installed. Refer to our [firmware page](firmware) for instructions on how to update or switch the firmware.
 
 ## Data Reading Issues
 
@@ -82,10 +98,10 @@ If you encounter any issues with the WaterP1MeterKit, try the following steps:
    - If you are unable to connect the WaterP1MeterKit to your WiFi network, access the fallback web interface by navigating to [http://192.168.4.1/](http://192.168.4.1/) in your browser while connected to the WaterP1MeterKit hotspot.
 
 2. **Firmware Updates**
-   - Ensure the WaterP1MeterKit is running the latest firmware. Refer to our [firmware page](https://smarthomeshop.io/firmware) for instructions on how to update the firmware.
+   - Ensure the WaterP1MeterKit is running the latest firmware. Refer to our [firmware page](firmware) for instructions on how to update the firmware.
 
 3. **Factory Reset**
-   - If all else fails, perform a factory reset on the WaterP1MeterKit. This can be done by reflashing the unit via USB-C. Refer to our [firmware page](https://smarthomeshop.io/firmware) for instructions on how to reflash the latest firmware, which will reset the device back to its original state and remove the saved SSID information.
+   - If all else fails, perform a factory reset on the WaterP1MeterKit. This can be done by reflashing the unit via USB-C. Refer to our [firmware page](firmware) for instructions on how to reflash the latest firmware, which will reset the device back to its original state and remove the saved SSID information.
 
 ## Additional Resources
 

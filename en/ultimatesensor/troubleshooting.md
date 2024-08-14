@@ -20,6 +20,21 @@ If you encounter any issues with the UltimateSensor, try the following steps:
 5. **Update Home Assistant**
    - Ensure you are running the latest version of Home Assistant. Go to **Settings > System > Updates** to check for and install any available updates.
 
+## Switching between WiFi and Ethernet (PoE) Connection
+
+The UltimateSensor is designed to support both WiFi and Ethernet (PoE) connections, providing versatility depending on your installation preferences. To successfully switch between these connection types, specific firmware adjustments are necessary:
+
+1. **Identify Installed Firmware**: 
+   - Check the LED status on the Ethernet port of the UltimateSensor:
+     - A **yellow or green LED** indicates that Ethernet firmware is currently active.
+     - No LED suggests the device is running on WiFi firmware.
+
+2. **Reflashing Firmware**:
+   - If you need to switch from WiFi to Ethernet or vice versa, you must reflash the device with the appropriate firmware.
+   - Detailed step-by-step instructions for reflashing are available on our [firmware page](firmware). This page will guide you through downloading the correct `.bin` file and using a flashing tool to update your UltimateSensor.
+
+For users experiencing difficulties with WiFi connections see the section below.
+
 ## WiFi Connectivity Issues
 
 1. **Check WiFi Signal Strength**
@@ -34,6 +49,10 @@ If you encounter any issues with the UltimateSensor, try the following steps:
 
 3. **Check WiFi Network Configuration**
    - Ensure your WiFi network is set to 2.4 GHz, as the UltimateSensor does not support 5 GHz networks.
+
+If the UltimateSensor fails to connect to a previously saved WiFi network, it will automatically revert to a factory fallback WiFi hotspot after one minute. This fallback hotspot is named ‘ultimatesensor’ with the password ‘ultimatesensor’. You can connect to this network to reconfigure your desired WiFi settings. Simply open the WiFi settings on your device, connect to the ‘ultimatesensor’ network, and follow the on-screen prompts to select and log into your preferred WiFi network.
+
+If reconnecting to the WiFi does not resolve your issues, or if you prefer to start fresh, you may need to re-flash the device firmware. Detailed instructions for re-flashing can be found on the [firmware page](firmware). This process allows you to reset the device to its original settings and update it with the latest firmware, ensuring optimal performance and connectivity.
 
 ## Data Reading Issues
 
@@ -63,7 +82,7 @@ If you encounter any issues with the UltimateSensor, try the following steps:
    - Ensure the UltimateSensor is running the latest firmware. Refer to our [firmware page](https://smarthomeshop.io/firmware) for instructions on how to update the firmware.
 
 3. **Factory Reset**
-   - If all else fails, perform a factory reset on the UltimateSensor. This can be done by reflashing the unit via USB-C. Refer to our [firmware page](https://smarthomeshop.io/firmware) for instructions on how to reflash the latest firmware, which will reset the device back to its original state and remove the saved SSID information.
+   - If all else fails, perform a factory reset on the UltimateSensor. This can be done by reflashing the unit via USB-C. Refer to our [firmware page](firmware) for instructions on how to reflash the latest firmware, which will reset the device back to its original state and remove the saved SSID information.
 
 ## Additional Resources
 

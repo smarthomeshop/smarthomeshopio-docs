@@ -58,31 +58,31 @@ The levels of CO2 in the air and potential health effects are:
 - **2,000 ppm**: Negative health effects, such as drowsiness and poor air quality.
 - **5,000 ppm**: Dangerous with long-term exposure.
 
-<!-- ## Temperature and Humidity Sensor Calibration
+## Temperature and Humidity Sensor Calibration
 
 1. **Temperature Calibration**
    - Ensure the sensor is placed in a stable environment with a known temperature.
-   - Adjust the temperature offset in the sensor’s settings to match the known temperature.
+   - Adjust the temperature offset in the ESPHome YAML to match the known temperature.
 
 2. **Humidity Calibration**
    - Place the sensor in an environment with a known humidity level.
-   - Adjust the humidity offset in the sensor’s settings to match the known humidity.
+   - Adjust the humidity offset in the ESPHome YAML to match the known humidity.
 
 ## Light Intensity Sensor Calibration
 
 1. **Calibration Steps**
    - Use a lux meter to measure the light intensity in the sensor’s environment.
-   - Adjust the light sensor’s readings in the settings to match the lux meter reading.
+   - Adjust the light sensor’s readings in the ESPHome YAML to match the lux meter reading.
 
 ## VOC and Particulate Matter Sensor Calibration
 
 1. **VOC Calibration**
    - Place the sensor in an environment with known VOC levels.
-   - Use the sensor's settings to adjust the VOC readings accordingly.
+   - Adjust the sensor's ESPHome YAML to adjust the VOC readings accordingly.
 
 2. **Particulate Matter Calibration**
    - Use a reliable particulate matter reference device to measure the PM levels.
-   - Adjust the sensor’s PM readings in the settings to match the reference device. -->
+   - Adjust the sensor’s PM readings in the ESPHome YAML to match the reference device.
 
 ## Additional Notes
 

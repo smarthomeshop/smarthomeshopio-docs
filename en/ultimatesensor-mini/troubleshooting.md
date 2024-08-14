@@ -61,6 +61,10 @@ If you encounter any issues with the UltimateSensor Mini, try the following step
 2. **Red Status LED Flashing Rapidly**
    - Indicates a startup error. Refer to the complete manual for more detailed troubleshooting steps.
 
+## Error '/config/esphome/default_16MB.csv'. ESPHome.
+
+If you get the error `Could not find file '/config/esphome/default_16MB.csv'. Please make sure it exists (full path: /config/esphome/default_16MB.csv).` then make sure you have the file `default_16MB.cvs` in the root of your ESPHome folder. You can download the file from our [Github repository](https://github.com/smarthomeshop/ultimatesensor-mini/blob/main/ultimatesensor-mini-v1/default_16MB.csv)
+
 ## Advanced Troubleshooting
 
 1. **Accessing the Web Interface**
