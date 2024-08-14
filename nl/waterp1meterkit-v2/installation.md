@@ -36,7 +36,7 @@ Opmerking: Soms kan het deksel (het buitenste plastic gedeelte) van je watermete
 
 Sluit de WaterP1MeterKit aan op een voedingsbron met behulp van de meegeleverde USB-C-kabel en voedingsadapter, of gebruik Power over Ethernet (PoE) voor een directe en stabiele netwerkverbinding zonder extra voedingskabels. Wanneer de kit voor het eerst wordt ingeschakeld, knippert er een rood statuslampje om aan te geven dat deze nog niet is verbonden met je netwerk of Home Assistant. Dit probleem wordt opgelost in de volgende stappen wanneer je deze op je netwerk aansluit.
 
-Houd er rekening mee dat het voeden van het apparaat via PoE of het gebruik van een Ethernet-verbinding in plaats van WiFi alleen werkt als het apparaat de Ethernet-firmware heeft geïnstalleerd. Alle versies van de WaterP1MeterKit V2 ondersteunen PoE als de Ethernet-firmware is geïnstalleerd. Om tussen de firmwareversies te schakelen, bezoek je onze [firmwarepagina](https://smarthomeshop.io/firmware).
+Houd er rekening mee dat het voeden van het apparaat via PoE of het gebruik van een Ethernet-verbinding in plaats van WiFi alleen werkt als het apparaat de Ethernet-firmware heeft geïnstalleerd. Alle versies van de WaterP1MeterKit V2 ondersteunen PoE als de Ethernet-firmware is geïnstalleerd. Om tussen de firmwareversies te schakelen, bezoek je onze [firmwarepagina](firmware).
 
 Standaard, als je de WaterP1MeterKit hebt besteld met de optie "Met USB-C-adapter set" geselecteerd bij het afrekenen, dan is de WiFi-firmware standaard geïnstalleerd en is de Ethernet-poort uitgeschakeld. Als je "Zonder USB-C-adapter set" hebt geselecteerd, dan is de Ethernet-firmware standaard geïnstalleerd.
 
@@ -52,7 +52,7 @@ Opmerking: Negeer voorlopig de rode knipperende status-LED. Dit wordt opgelost i
 
 ## Stap 4: Verbinden met WiFi
 
-Negeer deze stap als je van plan bent om de WaterP1MeterKit via een Ethernet-kabel aan te sluiten. Zoals vermeld in Stap 2, moet je hiervoor de Ethernet-firmware geïnstalleerd hebben. Voor meer informatie over het wisselen van firmware, bezoek je onze [firmwarepagina](https://smarthomeshop.io/firmware).
+Negeer deze stap als je van plan bent om de WaterP1MeterKit via een Ethernet-kabel aan te sluiten. Zoals vermeld in Stap 2, moet je hiervoor de Ethernet-firmware geïnstalleerd hebben. Voor meer informatie over het wisselen van firmware, bezoek je onze [firmwarepagina](firmware).
 
 Bij het opstarten zendt de WaterP1MeterKit een WiFi-hotspot uit met de naam 'waterp1meterkit' en het wachtwoord 'waterp1meterkit'. Zodra je verbonden bent met deze hotspot, verschijnt er een pop-upvenster waarin je je eigen WiFi-netwerk kunt selecteren.
 

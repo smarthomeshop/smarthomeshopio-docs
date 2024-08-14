@@ -79,7 +79,7 @@ If reconnecting to the WiFi does not resolve your issues, or if you prefer to st
    - If you are unable to connect the UltimateSensor to your WiFi network, access the fallback web interface by navigating to [http://192.168.4.1/](http://192.168.4.1/) in your browser while connected to the UltimateSensor hotspot.
 
 2. **Firmware Updates**
-   - Ensure the UltimateSensor is running the latest firmware. Refer to our [firmware page](https://smarthomeshop.io/firmware) for instructions on how to update the firmware.
+   - Ensure the UltimateSensor is running the latest firmware. Refer to our [firmware page](firmware) for instructions on how to update the firmware.
 
 3. **Factory Reset**
    - If all else fails, perform a factory reset on the UltimateSensor. This can be done by reflashing the unit via USB-C. Refer to our [firmware page](firmware) for instructions on how to reflash the latest firmware, which will reset the device back to its original state and remove the saved SSID information.

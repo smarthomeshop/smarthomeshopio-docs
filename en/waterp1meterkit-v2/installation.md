@@ -37,7 +37,7 @@ Note: Sometimes the lid (the outer plastic part) of your water meter can get in 
 
 Connect the WaterP1MeterKit to a power source using the provided USB-C cable and power adapter, or use Power over Ethernet (PoE) for a direct and stable network connection without additional power cables. When first powered up, the kit will flash a red status light to indicate it is not yet connected to your network or Home Assistant. This issue will be resolved in the following steps when you connect it to your network.
 
-Please note that powering the device by PoE or using an Ethernet connection instead of WiFi only works if the device has the Ethernet firmware installed. All WaterP1MeterKit V2 versions support PoE if the Ethernet firmware is installed. To switch between the firmware versions, please visit our [firmware page](https://smarthomeshop.io/firmware).
+Please note that powering the device by PoE or using an Ethernet connection instead of WiFi only works if the device has the Ethernet firmware installed. All WaterP1MeterKit V2 versions support PoE if the Ethernet firmware is installed. To switch between the firmware versions, please visit our [firmware page](firmware).
 
 By default, if you ordered the WaterP1MeterKit with the option "With USB-C Adapter Set" selected at checkout, then the WiFi firmware is installed by default and the Ethernet port is disabled. If you selected "Without USB-C Adapter Set," then the Ethernet firmware is installed by default.
 
@@ -53,7 +53,7 @@ Note: Ignore the red flashing status LED for now. This will be resolved in the f
 
 ## Step 4: Connect to WiFi
 
-Ignore this step if you plan to connect the WaterP1MeterKit via an Ethernet cable. As mentioned in Step 2, you need to have the Ethernet firmware installed for this. For more information on switching firmware, please visit our [firmware page](https://smarthomeshop.io/firmware).
+Ignore this step if you plan to connect the WaterP1MeterKit via an Ethernet cable. As mentioned in Step 2, you need to have the Ethernet firmware installed for this. For more information on switching firmware, please visit our [firmware page](firmware).
 
 Upon starting up the kit, the WaterP1MeterKit emits a WiFi hotspot named 'waterp1meterkit' with the password 'waterp1meterkit'. Once you are connected to this hotspot, a pop-up window will appear where you can select your own WiFi network.
 

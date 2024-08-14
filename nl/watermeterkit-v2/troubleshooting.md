@@ -60,10 +60,10 @@ Als u problemen ondervindt met de WaterMeterKit, probeer dan de volgende stappen
    - Als u de WaterMeterKit niet kunt verbinden met uw WiFi-netwerk, kunt u toegang krijgen tot de fallback-webinterface door naar [http://192.168.4.1/](http://192.168.4.1/) te gaan in uw browser terwijl u verbonden bent met de WaterMeterKit-hotspot.
 
 2. **Firmware-updates**
-   - Zorg ervoor dat de WaterMeterKit de nieuwste firmware gebruikt. Raadpleeg onze [firmware-pagina](https://smarthomeshop.io/firmware) voor instructies over hoe u de firmware kunt bijwerken.
+   - Zorg ervoor dat de WaterMeterKit de nieuwste firmware gebruikt. Raadpleeg onze [firmware-pagina](firmware) voor instructies over hoe u de firmware kunt bijwerken.
 
 3. **Fabrieksreset**
-   - Als niets anders werkt, voer dan een fabrieksreset uit op de WaterMeterKit. Dit kan worden gedaan door de unit opnieuw te flashen via USB-C. Raadpleeg onze [firmware-pagina](https://smarthomeshop.io/firmware) voor instructies over hoe u de nieuwste firmware opnieuw kunt flashen, waarmee het apparaat wordt teruggezet naar de oorspronkelijke staat en de opgeslagen SSID-informatie wordt verwijderd.
+   - Als niets anders werkt, voer dan een fabrieksreset uit op de WaterMeterKit. Dit kan worden gedaan door de unit opnieuw te flashen via USB-C. Raadpleeg onze [firmware-pagina](firmware) voor instructies over hoe u de nieuwste firmware opnieuw kunt flashen, waarmee het apparaat wordt teruggezet naar de oorspronkelijke staat en de opgeslagen SSID-informatie wordt verwijderd.
 
 ## Aanvullende bronnen
 

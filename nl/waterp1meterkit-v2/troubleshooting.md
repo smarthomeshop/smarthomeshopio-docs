@@ -38,7 +38,7 @@ Als u problemen ondervindt met de WaterP1MeterKit, probeer dan de volgende stapp
    - Controleer of uw WiFi-netwerk geen verborgen SSID gebruikt. Als dit het geval is, zorg er dan voor dat u tijdens het installatieproces handmatig de SSID en het wachtwoord invoert.
 
 4. **Controleer WiFi-firmware**
-   - Zorg ervoor dat de WiFi-firmware is geïnstalleerd op de WaterP1MeterKit. Als er geen Ethernet-kabel is aangesloten en de groene LED op de Ethernet-poort brandt, is de Ethernet-firmware geïnstalleerd. Als de LED uit is, is de WiFi-firmware geïnstalleerd. Raadpleeg onze [firmware-pagina](https://smarthomeshop.io/firmware) voor instructies over hoe u de firmware kunt bijwerken of overschakelen.
+   - Zorg ervoor dat de WiFi-firmware is geïnstalleerd op de WaterP1MeterKit. Als er geen Ethernet-kabel is aangesloten en de groene LED op de Ethernet-poort brandt, is de Ethernet-firmware geïnstalleerd. Als de LED uit is, is de WiFi-firmware geïnstalleerd. Raadpleeg onze [firmware-pagina](firmware) voor instructies over hoe u de firmware kunt bijwerken of overschakelen.
 
 ## Ethernet / PoE-connectiviteitsproblemen
 
@@ -51,7 +51,7 @@ Als u problemen ondervindt met de WaterP1MeterKit, probeer dan de volgende stapp
    - Indien mogelijk, test de Ethernet-kabel en PoE-poort met een ander apparaat om te bevestigen dat ze correct werken.
 
 3. **Controleer Ethernet-firmware**
-   - Zorg ervoor dat de Ethernet-firmware is geïnstalleerd op de WaterP1MeterKit. Als er geen Ethernet-kabel is aangesloten en de groene LED op de Ethernet-poort brandt, is de Ethernet-firmware geïnstalleerd. Als de LED uit is, is de WiFi-firmware geïnstalleerd. Raadpleeg onze [firmware-pagina](https://smarthomeshop.io/firmware) voor instructies over hoe u de firmware kunt bijwerken of overschakelen.
+   - Zorg ervoor dat de Ethernet-firmware is geïnstalleerd op de WaterP1MeterKit. Als er geen Ethernet-kabel is aangesloten en de groene LED op de Ethernet-poort brandt, is de Ethernet-firmware geïnstalleerd. Als de LED uit is, is de WiFi-firmware geïnstalleerd. Raadpleeg onze [firmware-pagina](firmware) voor instructies over hoe u de firmware kunt bijwerken of overschakelen.
 
 ## Problemen met het lezen van gegevens
 
@@ -81,10 +81,10 @@ Als u problemen ondervindt met de WaterP1MeterKit, probeer dan de volgende stapp
    - Als u de WaterP1MeterKit niet kunt verbinden met uw WiFi-netwerk, kunt u toegang krijgen tot de fallback-webinterface door naar [http://192.168.4.1/](http://192.168.4.1/) te gaan in uw browser terwijl u verbonden bent met de WaterP1MeterKit-hotspot.
 
 2. **Firmware-updates**
-   - Zorg ervoor dat de WaterP1MeterKit de nieuwste firmware gebruikt. Raadpleeg onze [firmware-pagina](https://smarthomeshop.io/firmware) voor instructies over hoe u de firmware kunt bijwerken.
+   - Zorg ervoor dat de WaterP1MeterKit de nieuwste firmware gebruikt. Raadpleeg onze [firmware-pagina](firmware) voor instructies over hoe u de firmware kunt bijwerken.
 
 3. **Fabrieksreset**
-   - Als niets anders werkt, voer dan een fabrieksreset uit op de WaterP1MeterKit. Dit kan worden gedaan door de unit opnieuw te flashen via USB-C. Raadpleeg onze [firmware-pagina](https://smarthomeshop.io/firmware) voor instructies over hoe u de nieuwste firmware opnieuw kunt flashen, waarmee het apparaat wordt teruggezet naar de oorspronkelijke staat en de opgeslagen SSID-informatie wordt verwijderd.
+   - Als niets anders werkt, voer dan een fabrieksreset uit op de WaterP1MeterKit. Dit kan worden gedaan door de unit opnieuw te flashen via USB-C. Raadpleeg onze [firmware-pagina](firmware) voor instructies over hoe u de nieuwste firmware opnieuw kunt flashen, waarmee het apparaat wordt teruggezet naar de oorspronkelijke staat en de opgeslagen SSID-informatie wordt verwijderd.
 
 ## Aanvullende bronnen
 

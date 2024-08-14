@@ -36,6 +36,6 @@ You can also use this guide for the WaterP1MeterKit V1 version. The only differe
    - Starting from WaterP1MeterKit V2, PoE is built-in by default. On the product page, you can choose between the "With USB-C Adapter Set" and "Without USB-C Adapter Set" options. This choice determines which firmware is installed:
      - **With USB-C Adapter Set**: The kit is configured for WiFi connectivity by default, and the Ethernet port is disabled.
      - **Without USB-C Adapter Set**: The kit is configured for Ethernet (PoE) connectivity by default.
-   - You can always switch between the firmware versions. If the green LED on the Ethernet port is on without a connected Ethernet cable, the Ethernet firmware is installed. If the LED is off, the WiFi firmware is installed. For instructions on switching firmware, refer to our [firmware page](https://smarthomeshop.io/firmware).
+   - You can always switch between the firmware versions. If the green LED on the Ethernet port is on without a connected Ethernet cable, the Ethernet firmware is installed. If the LED is off, the WiFi firmware is installed. For instructions on switching firmware, refer to our [firmware page](firmware).
 
 For further assistance, please join our [Discord server](https://smarthomeshop.io/discord) for personalized support and community interaction.

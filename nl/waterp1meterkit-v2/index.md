@@ -36,6 +36,6 @@ U kunt deze handleiding ook gebruiken voor de WaterP1MeterKit V1-versie. Het eni
    - Vanaf WaterP1MeterKit V2 is PoE standaard ingebouwd. Op de productpagina kunt u kiezen tussen de opties "Met USB-C-adapter set" en "Zonder USB-C-adapter set". Deze keuze bepaalt welke firmware is geïnstalleerd:
      - **Met USB-C-adapter set**: De kit is standaard geconfigureerd voor WiFi-connectiviteit en de Ethernet-poort is uitgeschakeld.
      - **Zonder USB-C-adapter set**: De kit is standaard geconfigureerd voor Ethernet (PoE) connectiviteit.
-   - U kunt altijd schakelen tussen de firmwareversies. Als de groene LED op de Ethernet-poort brandt zonder aangesloten Ethernet-kabel, is de Ethernet-firmware geïnstalleerd. Als de LED uit is, is de WiFi-firmware geïnstalleerd. Raadpleeg onze [firmwarepagina](https://smarthomeshop.io/firmware) voor instructies over het wisselen van firmware.
+   - U kunt altijd schakelen tussen de firmwareversies. Als de groene LED op de Ethernet-poort brandt zonder aangesloten Ethernet-kabel, is de Ethernet-firmware geïnstalleerd. Als de LED uit is, is de WiFi-firmware geïnstalleerd. Raadpleeg onze [firmwarepagina](firmware) voor instructies over het wisselen van firmware.
 
 Voor verdere ondersteuning kunt u lid worden van onze [Discord-server](https://smarthomeshop.io/discord) voor persoonlijke ondersteuning en interactie met de community.
