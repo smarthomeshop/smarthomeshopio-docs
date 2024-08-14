@@ -52,3 +52,5 @@ Once connected to your home WiFi network, Home Assistant will automatically dete
 ![Connect to WiFi](/images/watermeterkit/connect-ha.png)
 
 To use the WaterMeterKit for water data on the HA Energy Dashboard, please continue to the next step in the manual [Usage Guide](usage).
+
+SmartHomeShop is a hobby-based webshop dedicated to innovative smart home products. Please note that we are not responsible for the accuracy of sensor readings or future software changes by third parties.

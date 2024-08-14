@@ -51,3 +51,5 @@ Open Home Assistant and navigate to **Settings -> Devices & Services**. Home Ass
 After connecting to Home Assistant, your device will be visible under **Home Assistant -> Settings -> Devices & Services**. Look for the ESPHome integration and click on it to see your P1MeterKit with all its entities.
 
 For detailed instructions on integrating the P1MeterKit with the HA Energy Dashboard or DSMR-Reader, please continue to the [usage guide](usage).
+
+SmartHomeShop is a hobby-based webshop dedicated to innovative smart home products. Please note that we are not responsible for the accuracy of sensor readings or future software changes by third parties.

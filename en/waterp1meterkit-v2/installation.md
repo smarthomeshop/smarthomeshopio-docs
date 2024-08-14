@@ -68,3 +68,5 @@ Once connected to your home WiFi network, Home Assistant will automatically dete
 ![Connect to Home Assistant](/images/waterp1meterkit/connect-ha.png)
 
 To use the WaterP1MeterKit for water and energy data on the Home Assistant Energy Dashboard, please continue to the next step in the manual [Usage Guide](usage).
+
+SmartHomeShop is a hobby-based webshop dedicated to innovative smart home products. Please note that we are not responsible for the accuracy of sensor readings or future software changes by third parties.

@@ -24,3 +24,13 @@ Note that all sensors need at least 10 minutes to start up, and the CO2 sensor m
 ## Voice Assistant
 
 To use the voice assistant feature, you need to fully configure it. This involves several steps, including setting up voice commands and integrating with your preferred voice assistant. Follow the detailed steps in our [voice assistant guide](voice-assistant).
+
+## Placement of Ultimate Sensor Mini
+
+To ensure accurate readings and prevent damage:
+- Avoid placing the UltimateSensor Mini in direct sunlight. Prolonged exposure can cause the sensor’s casing to yellow, a condition not covered under warranty.
+- We recommend positioning the UltimateSensor Mini on a cabinet or mounting it on a wall at a height between 1 and 2 meters. 
+
+## Inaccurate measurement of sensors
+
+If sensors display inaccurate readings, they may require recalibration or adjustments to their offsets. Detailed instructions can be found on the [calibration page](calibration). Note: We are not responsible for inaccuracies in readings from third-party sensors or for changes in sensor behavior due to software updates by third parties.

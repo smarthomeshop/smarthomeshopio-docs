@@ -48,3 +48,5 @@ Once connected to your home WiFi network, Home Assistant will automatically dete
 
 Note: If your setup does not include a temperature sensor, you will need to disable this entity in Home Assistant. Similarly, if you are using only one of the two waterflow sensors, make sure to disable all entities corresponding to the unused sensor. 
 For calibration details and more comprehensive information, please refer to the [usage section](usage)
+
+SmartHomeShop is a hobby-based webshop dedicated to innovative smart home products. Please note that we are not responsible for the accuracy of sensor readings or future software changes by third parties.

@@ -43,3 +43,5 @@ Note that all sensors need at least 10 minutes to start up, and the CO2 sensor m
 To use the voice assistant feature, you need to fully configure it. Follow the steps in our [voice assistant guide](voice-assistant).
 
 Avoid placing the UltimateSensor Mini in direct sunlight to prevent inaccurate measurements and reduce the risk of damage to the sensor. We recommend placing the sensor on a cabinet or mounting it on a wall at a height between 1 and 2 meters. Read more in our [usage guide](usage)
+
+SmartHomeShop is a hobby-based webshop dedicated to innovative smart home products. Please note that we are not responsible for the accuracy of sensor readings or future software changes by third parties.
