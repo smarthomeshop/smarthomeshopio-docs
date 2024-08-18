@@ -5,7 +5,7 @@ export default defineConfig({
   title: "SmartHomeShop",
   description: "SmartHomeShop documentation",
   lastUpdated: true,
-  cleanUrls: false,
+  cleanUrls: true,
   locales: {
     root: {
       label: 'English',
