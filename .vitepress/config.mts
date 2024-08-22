@@ -53,6 +53,7 @@ export default defineConfig({
               { text: 'Calibration', link: '/en/ultimatesensor-mini/calibration' },
               { text: 'Warranty and Support', link: '/en/ultimatesensor-mini/warranty-and-support' },
               { text: 'Firmware', link: '/en/ultimatesensor-mini/firmware' },
+              { text: 'Home Assistant Card', link: '/en/ultimatesensor-mini/home-assistant-card' },
             ]
           },
           {
