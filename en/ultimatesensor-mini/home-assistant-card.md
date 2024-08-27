@@ -305,7 +305,7 @@ cards:
           - entity: binary_sensor.ultimatesensor_mini_target_3_active
             name: Preson 3 Detected
           - entity: sensor.ultimatesensor_mini_target_3_distance
-            name: Person 3 Speed
+            name: Person 3 Distance
           - entity: sensor.ultimatesensor_mini_target_3_speed
             name: Person 3 Speed
             secondary_info: none
