@@ -201,7 +201,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/smarthomeshop/smarthomeshopio-docs/edit/main/docs/:path'
+      pattern: 'https://github.com/smarthomeshop/smarthomeshopio-docs/edit/main/:path'
     },
 
     
