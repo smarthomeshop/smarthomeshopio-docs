@@ -108,6 +108,7 @@ cards:
         fn_var2: $ex vars.sensor_name_prefix = "sensor.ultimatesensor_mini_";
         fn_var3: $ex vars.number_name_prefix = "number.ultimatesensor_mini_";
         fn_var4: $ex vars.is_inch_unit = false;
+        fn_var5: $ex vars.max_distance = 10 * hass.states[vars.number_name_prefix + "max_distance"].state;
       - entity: ''
         name: Target1
         marker:
@@ -244,43 +245,43 @@ cards:
           dash: dot
         x:
           - 0
-          - $ex 7500 * Math.sin((2 * Math.PI)/360 * 60)
-          - 6500
-          - 5500
-          - 4500
-          - 4000
-          - 3000
-          - 2000
-          - 1000
+          - $ex vars.max_distance * Math.sin(8 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(7 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(6 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(5 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(4 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(3 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(2 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(1 * Math.PI / 24)
           - 0
-          - -1000
-          - -2000
-          - -3000
-          - -4000
-          - -4500
-          - -5500
-          - -6500
-          - $ex -7500 * Math.sin((2 * Math.PI)/360 * 60)
+          - $ex vars.max_distance * Math.sin(-1 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(-2 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(-3 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(-4 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(-5 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(-6 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(-7 * Math.PI / 24)
+          - $ex vars.max_distance * Math.sin(-8 * Math.PI / 24)
           - 0
-        'y':
+        y:
           - 0
-          - $ex 7500 * Math.cos((2 * Math.PI)/360 * 60)
-          - $ex Math.sqrt( 7500**2 - 6500**2 )
-          - $ex Math.sqrt( 7500**2 - 5500**2 )
-          - $ex Math.sqrt( 7500**2 - 4500**2 )
-          - $ex Math.sqrt( 7500**2 - 4000**2 )
-          - $ex Math.sqrt( 7500**2 - 3000**2 )
-          - $ex Math.sqrt( 7500**2 - 2000**2 )
-          - $ex Math.sqrt( 7500**2 - 1000**2 )
-          - 7500
-          - $ex Math.sqrt( 7500**2 - 1000**2 )
-          - $ex Math.sqrt( 7500**2 - 2000**2 )
-          - $ex Math.sqrt( 7500**2 - 3000**2 )
-          - $ex Math.sqrt( 7500**2 - 4000**2 )
-          - $ex Math.sqrt( 7500**2 - 4500**2 )
-          - $ex Math.sqrt( 7500**2 - 5500**2 )
-          - $ex Math.sqrt( 7500**2 - 6500**2 )
-          - $ex 7500 * Math.cos((2 * Math.PI)/360 * 60)
+          - $ex vars.max_distance * Math.cos(8 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(7 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(6 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(5 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(4 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(3 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(2 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(1 * Math.PI / 24)
+          - $ex vars.max_distance
+          - $ex vars.max_distance * Math.cos(-1 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(-2 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(-3 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(-4 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(-5 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(-6 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(-7 * Math.PI / 24)
+          - $ex vars.max_distance * Math.cos(-8 * Math.PI / 24)
           - 0
     raw_plotly_config: true
   - square: false
@@ -303,7 +304,7 @@ cards:
           - entity: sensor.ultimatesensor_mini_target_2_speed
             name: Person 2 Speed
           - entity: binary_sensor.ultimatesensor_mini_target_3_active
-            name: Preson 3 Detected
+            name: Person 3 Detected
           - entity: sensor.ultimatesensor_mini_target_3_distance
             name: Person 3 Distance
           - entity: sensor.ultimatesensor_mini_target_3_speed
@@ -312,10 +313,8 @@ cards:
     columns: 1
   - type: entities
     entities:
-      - entity: binary_sensor.ultimatesensor_mini_assist_in_progress
-        name: Voice Assistant Listening
-      - entity: select.ultimatesensor_mini_assist_pipeline
-      - entity: select.ultimatesensor_mini_finished_speaking_detection
+      - entity: select.ultimatesensor_mini_assistent_pipeline
+      - entity: select.ultimatesensor_mini_klaar_met_spraakdetectie
       - entity: switch.ultimatesensor_mini_use_wake_word
         name: Voice control activated
   - type: entities
