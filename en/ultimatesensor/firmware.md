@@ -8,7 +8,7 @@ The UltimateSensor is shipped with standard WiFi firmware, which facilitates qui
 
 ### Switching to Ethernet (PoE) Firmware
 
-To utilize Ethernet capabilities or PoE, you must flash the appropriate firmware onto the UltimateSensor. There are two primary methods to accomplish this:
+To utilize Ethernet capabilities or PoE, you must flash the appropriate firmware onto the UltimateSensor. First connect the device to WiFi and then flash the Ethernet firmware wirelessly using the ESPHome web interface OTA (over the air).
 
 1. **Adopting the Device in ESPHome:**
    - Navigate to ESPHome in your Home Assistant setup.
@@ -17,14 +17,33 @@ To utilize Ethernet capabilities or PoE, you must flash the appropriate firmware
    - On our [GitHub repository here](https://github.com/smarthomeshop/ultimatesensor/tree/main/ultimatesensor-v1/), find the YAML configuration for using the device with an Ethernet cable. Note that if your device has the Particulate Matter Sensor (PM), you need the complete version; otherwise, use the basic version. Select the file `ultimatesensor-ethernet-basic/complete-software.yaml`. Copy the YAML code and paste this into the device configuration on your ESPHome page.
    - Click Deploy to flash the software OTA on the device. Note that after completion, the device will no longer be connected to WiFi. Please connect it with an Ethernet cable to bring it back online.
 
-2. **Flashing via USB-C:**
-   - Connect the UltimateSensor to your computer using a USB-C cable.
-   - Download the `.bin` file from our [GitHub repository here](https://github.com/smarthomeshop/ultimatesensor/tree/main/ultimatesensor-v1/bin). Note that if your device has the Particulate Matter Sensor (PM), you need the complete version; otherwise, use the basic version. Select the appropriate version (`ultimatesensor-ethernet-basic/complete-softwarev*.bin`). Click the top-right Download icon to download the file (Download RAW file).
-   - Use a flashing tool such as [ESPHome-Flasher](https://web.esphome.io/?dashboard_install) to upload the new firmware to the UltimateSensor.
-   - Follow the on-screen instructions to ensure the firmware is correctly installed.
-   - You can now use the Ethernet port on the UltimateSensor for your connectivity.
+### Flashing via USB-C (Advanced users only):
 
-**Note:** Flashing new firmware can potentially disrupt your device settings, or you may need to readopt the device inside Home Assistant.
+This method should only be used as a last resort when other methods fail or a factory reset is needed.
+   
+Steps to prepare the device:
+- Locate the small cutout at the bottom of the case designed for a flat screwdriver
+- Carefully open the case using the cutout (the case uses click-connections, no screws)
+- On the main PCB, locate the blue LD2450 motion sensor module
+- Gently remove the blue LD2450 sensor from front side ofthe main PCB, When removing the sensor, be careful not to damage the PCB or other components. After removing the LD2450 sensor the board is ready to be flashed and is in Boot mode.
+
+Flashing process:
+- Connect the UltimateSensor to your computer using a USB-C cable
+- Visit [ESPHome-Flasher web interface](https://web.esphome.io/?dashboard_install)
+- Download the appropriate `.bin` file from our [GitHub repository](https://github.com/smarthomeshop/ultimatesensor/tree/main/ultimatesensor-v1/bin):
+   * For devices with PM sensor: `ultimatesensor-ethernet-complete-softwarev1.1.bin`
+   * For devices without PM sensor: `ultimatesensor-ethernet-basic-softwarev1.1.bin`
+- Select the downloaded .bin file in the ESPHome web flasher
+- Follow the flashing process in the web interface
+
+After flashing:
+- A red LED should start blinking, indicating successful flashing
+- Reassemble the device by carefully replacing the LD2450 sensor
+- Close the case, ensuring all click-connections are secure
+- Connect the device using an Ethernet cable to a network with DHCP enabled (avoid VLANs or firewall rules initially)
+- The device should appear in your DHCP client list
+
+**Important:** This process requires careful handling of the device components. If you're not comfortable with opening electronic devices, please consider using the OTA update method or seeking assistance on our [support chat server](https://smarthomeshop.io/discord).
 
 ## Firmware Changelog
 
