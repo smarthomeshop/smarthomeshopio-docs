@@ -17,6 +17,12 @@ To utilize Ethernet capabilities or PoE, you must flash the appropriate firmware
    - On our [GitHub repository here](https://github.com/smarthomeshop/ultimatesensor/tree/main/ultimatesensor-v1/), find the YAML configuration for using the device with an Ethernet cable. Note that if your device has the Particulate Matter Sensor (PM), you need the complete version; otherwise, use the basic version. Select the file `ultimatesensor-ethernet-basic/complete-software.yaml`. Copy the YAML code and paste this into the device configuration on your ESPHome page.
    - Click Deploy to flash the software OTA on the device. Note that after completion, the device will no longer be connected to WiFi. Please connect it with an Ethernet cable to bring it back online.
 
+After flashing:
+- A red LED should start blinking, indicating successful flashing
+- There should be a LED light going on solid or blinking on the Ethernet port.
+- Connect the device using an Ethernet cable to a network with DHCP enabled (avoid VLANs or firewall rules initially)
+- The device should appear in your DHCP client list
+
 ### Flashing via USB-C (Advanced users only):
 
 This method should only be used as a last resort when other methods fail or a factory reset is needed.
@@ -38,6 +44,7 @@ Flashing process:
 
 After flashing:
 - A red LED should start blinking, indicating successful flashing
+- There should be a LED light going on solid or blinking on the Ethernet port.
 - Reassemble the device by carefully replacing the LD2450 sensor
 - Close the case, ensuring all click-connections are secure
 - Connect the device using an Ethernet cable to a network with DHCP enabled (avoid VLANs or firewall rules initially)
